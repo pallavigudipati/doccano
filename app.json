@@ -39,5 +39,10 @@
         {
             "plan": "heroku-postgresql:basic"
         }
-    ]
+    ],
+    "buildpacks": [
+        {
+          "url": "heroku/python"
+        }
+    ],
 }
